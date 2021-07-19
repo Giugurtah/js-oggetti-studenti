@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
     <title>Students Objects</title>
 </head>
 <body>
+    <label for="add_student">Cliccare qui per aggiungere un nuovo studente</label>
+    <button id="add_student">Aggiungi studente</button>
+    <div id="student_data" class="hide">
+        <label for="student_name">Inseirre un nome:</label>
+        <input type="text" class="my-5" id="student_name"><br>
+        <label for="student_surname">Inseirre un cognome:</label>
+        <input type="text" class="my-5" id="student_surname"><br>
+        <label for="student_age">Inseirre l'età:</label>
+        <input type="text" class="my-5" id="student_age"><br>
+
+        <button id="save_data">Salva</button>
+    </div>
     <p id="students"></p>
+
     <script src="./js/index.js"></script>
 </body>
 </html>
